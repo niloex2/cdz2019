@@ -1,0 +1,87 @@
+/* ESTILOS GERAIS */
+
+/*Estilos para o Corpo da Página - Define estilo da fonte*/
+body{
+	font-family: Helvetica, Arial;
+}
+/*Estilos para parágrafos - Definição de fontes*/
+h1, h2, h3{
+	font-family: "Permanent Marker", Helvetica, Arial;
+}
+
+h2{
+	color:#596358;
+}
+
+video{
+  align-items: center;
+}
+
+
+<style>
+
+#navgeral{ 
+   display: flex; /*nosso container será flex*/
+   flex-direction: column;/*direção do conteúdo*/
+   align-items: center;/*Alinhamento dos itens*/
+   background-color: #B0E0E6 /*cor de fundo*/
+   }
+
+   #navgeral ul{
+   display: flex;padding: 0;/*espaçamento interno*/
+   margin: 0;/*espaçamento externo*/
+   width: 70%;/*largura em 70% da pagina*/
+   list-style: none;/*remove marcadores de lista*/
+   color: #f1f1f1; /*cor da fonte*/}
+
+   #navgeral ul li{
+   display: flex;flex-direction: row;/*direção do conteúdo*/
+   width: 100%;/*largura do elemento em 100%*/
+   height: 40px;/*altura do elemento*/
+   line-height: 15px;/*alinhamento horizontal*/
+   text-align: center;/*texto centralizado*/}
+
+   #navgeral ul li a{
+    width: 100%;/*largura do elemento em 100%*/
+    text-decoration: none;/*remove underline do link*/
+    color: #f1f1f1;}
+
+    #navgeral ul li a :haver{
+    background-color: #008DA9;/*cor de fundo*/
+    color: #000000;
+}
+</style>
+
+
+/*Definindo estilo para o cabeçalho*/
+header{
+	background-color: #00CED1; /*Cor de fundo*/
+	display: flex; /*Define que o container será flexivel*/
+	flex-direction: column; /*Define o comportamento do container*/
+	align-items: center; /*Alinha os intens do container ao centro*/
+	padding: 20px; /*Espaçamento interno de 20px para todos os lados*/
+}
+/*Definindo estilos para todos os parágrafos dentro do cabeçalho*/
+header p{ 
+	max-width: 1000px; /*Define largura máxima do parágrafo*/
+	text-align: justify; /*Justifica o texto*/
+}
+section{
+	background-color: #87CEFA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+}
+
+footer{
+	background-color: #808080;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	color: #ffffff;
+}
+
+
+
