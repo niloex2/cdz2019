@@ -1,0 +1,116 @@
+/* ESTILOS GERAIS */
+
+/*Estilos para o Corpo da Página - Define estilo da fonte*/
+body{
+	font-family: Helvetica, Arial;
+}
+/*Estilos para parágrafos - Definição de fontes*/
+h1, h2, h3{
+  text-align: center;
+	font-family: "Permanent Marker", Helvetica, Arial;
+}
+
+header img{
+  width: 480px ;
+  height: 360px ;
+}
+
+.img-cdz{
+  width: 350px ;
+  height: 240px ;
+  display: block;
+  margin: 5% auto;
+}
+
+h2{
+	color:#596358;
+}
+
+video{
+  align-items: center;
+}
+section{
+  align-items: center;
+
+}
+.link{
+  text-decoration: none;
+  color: #521861;
+  font-weight: bold;
+}
+
+#navgeral{ 
+   display: flex; /*nosso container será flex*/
+   flex-direction: column;/*direção do conteúdo*/
+   align-items: center;/*Alinhamento dos itens*/
+   background-color: #008DA9 /*cor de fundo*/
+   }
+
+   #navgeral ul{
+   display: flex;padding: 0;/*espaçamento interno*/
+   margin: 0;/*espaçamento externo*/
+   width: 70%;/*largura em 70% da pagina*/
+   list-style: none;/*remove marcadores de lista*/
+   color: #008DA9; /*cor da fonte*/}
+
+   #navgeral ul li{
+   display: flex;flex-direction: row;/*direção do conteúdo*/
+   width: 100%;/*largura do elemento em 100%*/
+   line-height: 20px;/*alinhamento horizontal*/
+   text-align: center;/*texto centralizado*/
+   margin: 0 15px;
+  }
+
+   #navgeral ul li a{
+    width: 100%;/*largura do elemento em 100%*/
+    text-decoration: none;/*remove underline do link*/
+    color: #020e1a;
+    padding: 10px;
+  }
+
+    #navgeral a:hover{
+    background-color: #00677b;/*cor de fundo*/
+    color: #fff;
+    border-radius: 7px;
+}
+
+
+/*Definindo estilo para o cabeçalho*/
+header{
+	background-color: #808080; /*Cor de fundo*/
+	display: flex; /*Define que o container será flexivel*/
+	flex-direction: column; /*Define o comportamento do container*/
+	align-items: center; /*Alinha os intens do container ao centro*/
+	padding: 20px; /*Espaçamento interno de 20px para todos os lados*/
+}
+/*Definindo estilos para todos os parágrafos dentro do cabeçalho*/
+header p{ 
+	max-width: 60%; /*Define largura máxima do parágrafo*/
+  text-align: justify; /*Justifica o texto*/
+  align-items: center;
+}
+section{
+	background-color: #87CEFA;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  padding: 20px;
+}
+
+article{
+  margin: 50px 0;
+}
+
+.paragrafo{
+  width: 60%;
+  margin: 0 auto;
+}
+
+footer{
+	background-color: #808080;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	color: #ffffff;
+}
